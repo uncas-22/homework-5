@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Урок 5");
-
+        System.out.println("Урок 5 Задание 1");
 
     }
 }
