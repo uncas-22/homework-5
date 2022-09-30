@@ -15,8 +15,21 @@ public class Main {
         if (age >= 18 && age < 24) {
             System.out.println("Ты закончил школу. Отправляйся в университет.");
         }
-        if (age >=24) {
+        if (age >= 24) {
             System.out.println("Ты окончил университет. Пора искать первую работу");
         }
+        System.out.println("Задание 3");
+        int capasity = 102;
+        int sittingPlace = 60;
+        int standingPlace = capasity - sittingPlace;
+        int sittingPlaceReserved = 52;
+        int standingPlaceReserved = 23;
+        if (sittingPlaceReserved < sittingPlace) {
+            System.out.println("В вагоне осталось свободно " + (sittingPlace - sittingPlaceReserved) + " сидячих мест");
+        }
+        if (standingPlaceReserved < standingPlace)  {
+            System.out.println("В вагоне осталось свбодно " + (standingPlace - standingPlaceReserved) + " стоячих мест");
+        }
     }
+
 }
